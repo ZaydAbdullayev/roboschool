@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jost';
+}
+
+body {
+    width: 100%;
+}
+
+#root {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+::selection{
+    background: #141024b3;
+    color: #ddd;
+}
